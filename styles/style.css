@@ -279,3 +279,43 @@
 	line-height: 1.2;
 	letter-spacing: 0.16px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px 88px;
+}
+
+.footer__address {
+	max-width: 240px;
+}
+
+.footer__menu-list,
+.footer__social-list {
+	list-style: none;
+}
+
+.footer__menu-list-item {
+	text-align: center;
+}
+
+.footer__menu-link {
+	color: #000;
+	font-weight: 400;
+	font-size: 18px;
+	text-underline-position: under;
+}
+
+.footer__menu-link_active {
+	text-decoration: none;
+}
+
+.footer__social-list {
+	display: flex;
+	gap: 48px;
+}
+
+.footer__social-list-item {
+	width: 48px;
+	height: 48px;
+}
