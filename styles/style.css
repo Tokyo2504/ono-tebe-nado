@@ -59,10 +59,93 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.35;
-	letter-spacing: 0.01em;
+	letter-spacing: 0.16px;
 }
 
 .address__link {
 	text-underline-position: under;
+	white-space: nowrap;
+}
+
+.cover {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 165px 50px 51px;
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.overlay {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	opacity: 0.6;
+	background-color: #000;
+}
+
+.cover__title {
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 135px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 1.15;
+	letter-spacing: 30px;
+	text-transform: uppercase;
+}
+
+.aligned-text_center {
+	line-height: 1;
+	text-align: center;
+}
+
+.aligned-text_right {
+	line-height: 1;
+	text-align: right;
+}
+
+.letter-spacing-extended {
+	letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+	letter-spacing: normal;
+}
+
+.cover__description {
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 79px;
+	max-width: 972px;
+	margin-left: auto;
+}
+
+.cover__description-text {
+	color: #fff;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	word-spacing: 18px;
+}
+
+.bet-button {
+	border: 1px solid #fff;
+	padding: 12px 32px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: transparent;
+	cursor: pointer;
 	white-space: nowrap;
 }
