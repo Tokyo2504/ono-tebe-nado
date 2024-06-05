@@ -1,9 +1,3 @@
-/* место для вашего кода */
-.container {
-	max-width: 1052px;
-	margin: 0 auto;
-}
-
 .section__title {
 	color: #000;
 	font-weight: 700;
@@ -16,12 +10,15 @@
 	grid-template-columns: 1fr 148px 1fr;
 	align-items: center;
 	gap: 10px;
+	max-width: 1052px;
+	margin: 0 auto;
 	padding: 92px 27px 91px;
 }
 
 .header__links-list {
 	display: flex;
-	gap: 33px;
+	flex-wrap: wrap;
+	gap: 10px 33px;
 }
 
 .header__links-list-item {
@@ -277,7 +274,6 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1.2;
-	letter-spacing: 0.16px;
 }
 
 .footer {
